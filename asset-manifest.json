@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pikaflix/static/css/main.6d4e09db.css",
+    "main.js": "/pikaflix/static/js/main.5ba53534.js",
+    "index.html": "/pikaflix/index.html",
+    "main.6d4e09db.css.map": "/pikaflix/static/css/main.6d4e09db.css.map",
+    "main.5ba53534.js.map": "/pikaflix/static/js/main.5ba53534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d4e09db.css",
+    "static/js/main.5ba53534.js"
+  ]
+}
