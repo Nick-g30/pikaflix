@@ -2,7 +2,6 @@
   "name": "pikaflix",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Nick-g30.github.io/pikaflix",
   "dependencies": {
     "@alan-ai/alan-sdk-web": "^1.8.33",
     "@emotion/react": "^11.9.0",
