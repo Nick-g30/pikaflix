@@ -9,6 +9,7 @@ import { fetchToken } from '../utils';
 const useAlan = () => {
 	const { setMode } = useContext(ColorModeContext);
 	const dispatch = useDispatch();
+	const navigate = useNavigate();
 	useEffect(() => {
 		alanBtn({
 			key: process.env.REACT_APP_ALAN_API,
@@ -19,13 +20,13 @@ const useAlan = () => {
 					);
 
 					if (foundGenre) {
-						window.location.href = '/';
+						navigate('/');
 						dispatch(selectCategory(foundGenre.id));
 					} else {
 						const category = genreOrCategory.startsWith('top')
 							? 'top_rated'
 							: genreOrCategory;
-						window.location.href = '/';
+						navigate('/');
 						dispatch(selectCategory(category));
 					}
 				} else if (command === 'changeMode') {

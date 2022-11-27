@@ -1,0 +1,8 @@
+{
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  // ESLint Autofix on save
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+  // Show Git folder
+  "files.exclude": { "**/.git": false }
+}
